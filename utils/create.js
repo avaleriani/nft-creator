@@ -6,7 +6,7 @@ const getRandom = (min, max) => {
 
 const createImage = () => {
   const max = 1;
-  const min = 100;
+  const min = 10;
   const width = getRandom(min, max);
   const randomColor =
     "#" + (0x1000000 + Math.random() * 0xffffff).toString(16).substr(1, 6);

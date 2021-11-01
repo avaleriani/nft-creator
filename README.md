@@ -13,3 +13,13 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+
+## Commands:
+
+Deploy NFT contact to blockchain:
+
+`npx hardhat run scripts/deploy.js --network rinkeby`
+
+Run contact locally for testing:
+
+`npx hardhat run scripts/run.js`
